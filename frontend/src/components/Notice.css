@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+
+.notice{
+    background-color: #b8e0ba;
+    padding-bottom: 4vw;
+    font-family: monospace;
+    width: 80%;
+    margin: 0 auto;
+}
+.notice > h1{
+    padding-top: 4vw;
+    font-size: 3.2rem;
+    font-family: "Stick No Bills";
+    margin-bottom: 4vw;
+    text-align: center;
+
+}
+
+.notice__container{
+    margin:  0px auto;
+    width: 75%;
+    padding-bottom: 25px;
+}
+
+.notice__file{
+    padding: 5px;
+}
+
+.notice__heading{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notice__box > a{
+    color: black;
+    text-decoration: none;
+}
+
+.notice__box > a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.notice__box{
+    margin-top: 25px;
+}
